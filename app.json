@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "app-expo",
+    "slug": "App_expo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.tontapcode.appexpo"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "app-expo",
+    "extra": {
+      "eas": {
+        "projectId": "299a5541-68a4-49bc-96db-379432ebac46"
+      }
+    }
+    
+  }
+}
